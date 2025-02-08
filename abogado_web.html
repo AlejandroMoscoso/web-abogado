@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Legales - Abogado Particular</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #004080, #0073e6);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 0;
+        }
+        .services, .contact {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004080;
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+        .services img {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #004080;
+        }
+        footer {
+            background: #002244;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Servicios Legales - Abogado Particular</h1>
+    </header>
+    
+    <div class="container">
+        <section class="services">
+            <h2>Mis Servicios</h2>
+            <p>Asesoría legal en distintas áreas del derecho. Brindo representación en procesos legales y soluciones jurídicas personalizadas.</p>
+            <h3>Derecho de Familia</h3>
+            <img src="familia.jpg" alt="Derecho de Familia">
+            <p>Asesoría en divorcios, custodia de menores, pensión alimenticia y régimen de visitas.</p>
+            
+            <h3>Derecho Administrativo</h3>
+            <img src="administrativo.jpg" alt="Derecho Administrativo">
+            <p>Defensa y asesoramiento en procedimientos administrativos y recursos ante la administración pública.</p>
+            
+            <h3>Derecho Penal</h3>
+            <img src="penal.jpg" alt="Derecho Penal">
+            <p>Defensa en procesos penales, asesoramiento a víctimas y representación en tribunales.</p>
+            
+            <h3>Derecho Civil</h3>
+            <img src="civil.jpg" alt="Derecho Civil">
+            <p>Contratos, responsabilidad civil, herencias y todo tipo de litigios civiles.</p>
+        </section>
+        
+        <section class="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través del siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+            <p><strong>Correo Electrónico:</strong> abogado@ejemplo.com</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 - Abogado Particular. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
